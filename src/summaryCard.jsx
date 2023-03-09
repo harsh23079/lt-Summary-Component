@@ -5,7 +5,7 @@ import { Memory, Reaction, Verbal, Visual } from './assets/index'
 const summaryCard = () => {
   return (
     <div>
-      <div className='summary sizeCard'>
+      <div className='summary sizeCard align'>
 
         <h4 style={{ textAlign: 'left' }}>Summary</h4>
         <div className='score'>

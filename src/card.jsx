@@ -4,7 +4,7 @@ import React from 'react'
 const Card = () => {
   return (
     <div>
-      <div className='result sizeCard'>
+      <div className='result sizeCard align'>
         <p className='gray'>Your Result</p>
         <div className='numberInCard1'>
           <div className='circle'>

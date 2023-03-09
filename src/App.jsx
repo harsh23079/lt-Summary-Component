@@ -9,11 +9,14 @@ import SummaryCard from './summaryCard'
 export default function App() {
   return (
     <main>
+      <div style={{ height: '10vh' }}></div>
       <div className='components'>
-         <Card />
-      <SummaryCard />
+
+        <Card />
+        <SummaryCard />
+
       </div>
-     
+
     </main>
   )
 }
