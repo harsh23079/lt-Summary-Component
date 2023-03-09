@@ -1,0 +1,140 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+ 
+}
+
+/* Both components in flex */
+.components{
+  display: flex;
+/*   gap:20px; */
+}
+
+/* Text */
+.text_sz{
+  font-size:70px;
+  color:white;
+  font-weight:bold;
+}
+
+.margin{
+  margin-bottom:0px;
+  margin-top:25px;
+}
+.margin1{
+  margin-top:-12px;
+  color: #e8e8e8;
+  font-size:12px;
+  
+}
+
+.sizeCard{
+  width:250px;
+  height:400px;
+  padding:15px;
+  border-radius: 15px;
+}
+
+.gray{
+  color:#cfcfcf;
+  
+}
+
+/* Card 1 circle  */
+.circle{
+    border-radius: 50%;
+    display: inline-block; 
+   height:150px;
+  width:150px;
+ background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+  
+}
+
+
+/* Card 1 csss  */
+.result{
+  
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+
+
+/* Card 2 css */
+.summary{
+  background-color:hsl(0, 0%, 100%);
+  
+ box-shadow: 10px 5px 5px #cfcfcf;
+  
+ 
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+
+/* Card 2 all result flex in row */
+
+.flex-row{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.score{
+  font-size:16px;
+  display:flex;
+  flex-direction:column; 
+  gap:5px;
+  
+  
+/*   width:23px; 
+ height:10px; */
+}
+
+.score1{
+  color:hsl(0, 100%, 67%);
+  background:#FFF6F5;
+  border-radius:15px;
+  margin-bottom:10px;
+  padding:15px 5px; 
+  
+  
+}
+.score2{
+    color:hsl(39, 100%, 56%);
+  background:#FFFBF2;
+ border-radius:15px;
+  margin-bottom:10px;
+  padding:15px 5px; 
+}
+.score3{
+    color:hsl(166, 100%, 37%);
+   background:#F2FBFA;
+  border-radius:15px;
+  margin-bottom:10px;
+  padding:15px 5px; 
+}
+.score4{
+    color:hsl(234, 85%, 45%);
+  background:#F3F3FD;
+ border-radius:15px;
+  
+  padding:15px 5px; 
+}
+
+/*  Button */
+
+.button{
+  background:hsl(224, 30%, 27%);
+  color:white;
+  padding:12px;
+  border-radius:25px;
+  font-size:14px;
+  width:230px;
+  align-self:center;
+}
+
+.black{
+  color:black;
+}
